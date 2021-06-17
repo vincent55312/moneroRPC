@@ -1,0 +1,37 @@
+{
+    "name": "monero-integrations/monerophp",
+    "description": "A Monero library written in PHP by the Monero-Integrations team.",
+    "keywords": ["Monero", "XMR", "monerod", "monero-wallet-rpc", "cryptonote", "JSONRPC", "JSON-RPC", "cryptocurrency"],
+    "homepage": "https://github.com/monero-integrations/monerophp",
+    "type": "library",
+    "version" : "1.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SerHack",
+            "email": "support@monerointegrations.com"
+        },
+        {
+            "name": "cryptochangements34",
+            "email": "bW9uZXJv@gmail.com"
+        },
+        {
+            "name": "sneurlax",
+            "email": "sneurlax@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "ext-bcmath": "*",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "suggest": {
+        "ext-gmp": "Used to have a multiple math precision for generating address"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoneroIntegrations\\MoneroPhp\\": "src/"
+        }
+    }
+}
